@@ -1,0 +1,27 @@
+/*html {
+	background-image: url("../images/fd.png");
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+ }*/
+
+.top {
+	margin-top: 8%;
+	text-align: center;
+}
+
+.characterImage {
+	height: 200px;
+}
+
+.left {
+	background-color: red;
+	float: left;
+	margin-left: 30%;
+}
+
+.right {
+	margin-right: 30%;
+	float: right;
+}

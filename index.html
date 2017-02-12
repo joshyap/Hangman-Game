@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Super Smash Bros Hangman</title>
+	
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="style.css">
+	<!-- Added link to the jQuery Library -->
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="assets/javascript/game.js"></script>
+</head>
+<body>
+
+	<div class="top">
+		<p>TOPTOPTOP</p>
+	</div>
+
+	<div class="left">
+		<img src="assets/images/fox.jpg" class="characterImage">
+	</div>
+
+	<div class="right">
+		<p>Press any key to get started</p>
+		<p>Wins: <span id="wins"></span></p>
+		<p>Current word:</p>
+		<p><span id="currentWord"></span></p>
+		<p>Number of guesses remaining:</p>
+		<p><span id="remainingGuesses"></span></p>
+		<p>Letters already guessed:</p>
+		<p><span id="guessedLetters"></span></p>
+	</div>
+</body>
+</html>
